@@ -3,11 +3,8 @@ public class Car extends Transport {
         System.out.println("Проверяем двигатель");
     }
 
-    public void check() {
-        System.out.println("Обслуживаем " + getModelName());
-        for (int i = 0; i < getWheelsCount(); i++) {
-            updateTyre();
-        }
+    public void service() {
+        super.service();
         checkEngine();
     }
 }

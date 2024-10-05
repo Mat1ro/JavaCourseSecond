@@ -19,14 +19,14 @@ public class Main {
         Bicycle bicycle2 = new Bicycle();
         bicycle.setModelName("bicycle1");
         bicycle2.setModelName("bicycle2");
-        bicycle.setWheelsCount(4);
-        bicycle2.setWheelsCount(4);
+        bicycle.setWheelsCount(2);
+        bicycle2.setWheelsCount(2);
 
-        car.check();
-        car2.check();
-        truck.check();
-        truck2.check();
-        bicycle.check();
-        bicycle2.check();
+        car.service();
+        car2.service();
+        truck.service();
+        truck2.service();
+        bicycle.service();
+        bicycle2.service();
     }
 }
